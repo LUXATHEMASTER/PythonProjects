@@ -1,0 +1,19 @@
+START| HOME, BRIDGE, LESS_TRAVELED| You are walking through the woods on a snowy evening.  You come to a fork in the road.  Do you a) Go home and relax b) take the road more-traveled? c)take the road less-traveled ?
+
+LESS_TRAVELED|| You are eaten by a bear.  The end.
+
+BRIDGE| SLIPPED, EATEN_BY_TROLL| You walk along the road for a while.  As you come to a bridge, a troll jumps out and demands a gold coin as a toll.  Do you a) pay the troll's toll or b) refuse to pay?
+
+SLIPPED|| The troll happily wanders off with his gold coin, but as you step onto the bridge, your foot slips on the wet wood.  You fall off of the bridge and into the icy water.  The end.
+
+EATEN_BY_TROLL|HEAVEN , HELL| The troll eats you.  a)Do you deserve to go to heaven? b)Do you want to got to hell?
+
+HOME |START,GO_PLAY_SOCCER,SLEEP| You have returned home man.a)Choose a to go back for a walk ? b)Choose b to got play for Barcelona c)Go to sleep
+
+GO_PLAY_SOCCER||Its a score youre are now leo messi. The end.
+
+HELL|| Im sorry this your end.The end
+
+HEAVEN|HOME , SLEEP| a)Go back home b)Sleep
+
+SLEEP||You have reached you final destination.The end
